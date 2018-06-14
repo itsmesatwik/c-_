@@ -7,7 +7,7 @@
 
 // Template functions
 template<typename T>
-void TimesN(T val) {
+void TimesN(T val, int n) {
 	std::cout << val * n << "\n"; // The operator must hold meaning for the object and must be overloaded for custom objects
 }
 
